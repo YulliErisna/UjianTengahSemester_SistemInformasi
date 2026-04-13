@@ -35,7 +35,7 @@ return new class extends Migration
             $table->text('deskripsi')->nullable(); // Deskripsi tambahan
             $table->string('nomor_seri')->unique()->nullable(); // Jika perlu nomor seri unik per unit
             $table->date('tanggal_pengadaan')->nullable(); // Kapan barang ini diadakan
-
+            
             $table->timestamps(); // created_at, updated_at
         });
     }

@@ -20,7 +20,7 @@ class UserRoleSeeder extends Seeder
             ['email' => 'admin@labsys.test'],
             // Data yang akan dimasukkan atau diupdate
             [
-                'name' => 'Muhammad Reky',
+'name' => 'Shahira Fathiya',
                 'npm' => 'ADMIN001', // Atau ID unik lain
                 'role' => 'Admin',
                 'password' => Hash::make('admin_password_123'), // GANTI dengan password aman!
@@ -34,7 +34,7 @@ class UserRoleSeeder extends Seeder
                 ['email' => 'aslab.informatika@labsys.test'],
                 // Data yang akan dimasukkan atau diupdate
             [
-                    'name' => 'Aska Shahira',
+'name' => 'Yulli Erisna',
                     'npm' => 'ASLAB001', // Atau ID unik lain
                     'role' => 'Aslab',
                     'password' => Hash::make('aslab_password_123'), // GANTI dengan password aman!
