@@ -28,3 +28,9 @@ Route::post('/login', [AuthenticatedSessionController::class, 'store'])
 Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
             ->middleware('auth')
             ->name('logout');
+
+
+// Inventory CRUD (web)
+Route::resource('inventory', \App\Http\Controllers\InventoryController::class);
+
+
